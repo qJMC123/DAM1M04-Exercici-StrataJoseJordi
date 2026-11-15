@@ -1,11 +1,30 @@
 .barraStrata {
     position: fixed;
     top: 0;
-    padding: 20px;
+    padding: 23px;
     left: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 70px;
-    border: 1px solid grey;
+    border: 1px solid rgb(223, 221, 221);
+    color: grey;
+}
+
+.barraStrata a {
+    color: grey;
+    text-decoration: none;
+}
+
+.barraStrata a:hover {
+    color: black;
+}
+
+#logoStrata {
+    top: 0;
+    padding: 23px;
+    display: flex;
+    position: fixed;
+    width: 10px;
+    height: 22px;
 }
